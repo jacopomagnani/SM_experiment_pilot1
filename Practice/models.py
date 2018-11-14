@@ -48,7 +48,7 @@ class Player(BasePlayer):
         side_list = Constants.side_space
         type_list = [round(random.uniform(Constants.type_space[0], Constants.type_space[1]), 1) for _ in range(6)]
         type_list[0] = self.type
-        bid_list = [random.uniform(0, 10) for _ in range(6)]
+        bid_list = [random.uniform(0, 20) for _ in range(6)]
         bid_list[0] = self.bid
         rank_list = [0, 0, 0, 0, 0, 0]
         side1_bids = [bid_list[i] for i in range(6) if side_list[i] == 1]
