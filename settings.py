@@ -10,7 +10,7 @@ import otree.settings
 # e.g. self.session.config['participation_fee']
 
 SESSION_CONFIG_DEFAULTS = {
-    'real_world_currency_per_point': 1.15,
+    'real_world_currency_per_point': 2.2,
     'participation_fee': 30,
     'doc': "",
 }
@@ -21,7 +21,6 @@ SESSION_CONFIGS = [
         'display_name': "My Configs",
         'num_demo_participants': 6,
         'app_sequence': ['instructions', 'Practice', 'Questions', 'Game', 'finalpage'],
-        'players_per_group': 6,
         'doc': """
             Note: 'players_per_group' must be an even number;
             when the number of participants is not divisible by the number of players per group, 
