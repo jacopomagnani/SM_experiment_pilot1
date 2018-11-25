@@ -1,0 +1,5 @@
+__pycache__/* linguist-vendored
+__temp_migrations/* linguist-vendored
+_rooms/* linguist-vendored
+_static/* linguist-vendored
+_static_root/* linguist-vendored
