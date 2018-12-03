@@ -50,8 +50,6 @@ class MyWaitPage1(WaitPage):
 
 class Page1(Page):
 
-    timeout_seconds = 60
-
     form_model = 'player'
     form_fields = ['bid']
 
@@ -68,8 +66,6 @@ class MyWaitPage2(WaitPage):
 
 
 class Page2(Page):
-
-    timeout_seconds = 120
 
     def vars_for_template(self):
         return {

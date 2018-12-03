@@ -64,9 +64,6 @@
 
 {% block styles %}
     <style>
-        .otree-timer {
-            display: none;
-        }
         table.tablex {
         margin-left:auto;
         margin-right:auto;
@@ -83,16 +80,6 @@
     </style>
 {% endblock %}
 
-{% block scripts %}
-    <script>
-        $(function () {
-            $('.otree-timer__time-left').on('update.countdown', function (event) {
-                if (event.offset.totalSeconds === 5) {
-                    $('.otree-timer').show();
-                }
-            });
-        });
-    </script>
-{% endblock %}
+
 
 
